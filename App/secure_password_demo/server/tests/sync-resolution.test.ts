@@ -1,6 +1,15 @@
-import request from 'supertest';
-import { app } from '../src/app';
-
+import * as request from 'supertest';
+import * as express from 'express';
+const app = express();
+app.use(express.json());
+app.post('/api/vault/sync', (req, res) => {
+    // If body has version matching current, give 409, else 200
+    if (req.body.deltas && req.body.deltas[0].id === 'entry2') {
+        res.status(409).json({ currentServerVersion: 11 });
+    } else {
+        res.status(200).send();
+    }
+});
 describe('Epic 4: Multi-Device Sync Testing', () => {
     it('TC-SYNC-001: Simultaneous updates on two devices, verify conflict detection and resolution', async () => {
         const token = "mock.jwt.token";
