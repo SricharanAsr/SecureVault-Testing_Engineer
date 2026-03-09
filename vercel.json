@@ -1,7 +1,8 @@
 {
     "version": 2,
-    "buildCommand": "npm install && cd App/secure_password_demo/client && npm install && npm run build",
+    "buildCommand": "cd App/secure_password_demo/client && npm install && npm run build",
     "outputDirectory": "App/secure_password_demo/client/dist",
+    "framework": "vite",
     "rewrites": [
         {
             "source": "/api/(.*)",
@@ -9,7 +10,7 @@
         },
         {
             "source": "/(.*)",
-            "destination": "/index.html"
+            "destination": "/App/secure_password_demo/client/index.html"
         }
     ]
 }
