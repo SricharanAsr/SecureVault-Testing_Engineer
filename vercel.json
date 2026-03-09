@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "buildCommand": "cd App/secure_password_demo/client && npm install && npm run build",
+    "outputDirectory": "App/secure_password_demo/client/dist",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
