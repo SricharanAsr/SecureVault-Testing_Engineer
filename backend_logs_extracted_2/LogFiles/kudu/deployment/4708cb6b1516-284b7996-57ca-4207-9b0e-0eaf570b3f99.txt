@@ -1,0 +1,44 @@
+2026-03-08T16:16:40  Fetching changes.
+2026-03-08T16:16:41    Starting  LocalZipHandler
+2026-03-08T16:16:41    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/e8457f15-e2a1-4fe4-9308-0e23408de9f2.zip (0.06 MB) to /tmp/zipdeploy/extracted
+2026-03-08T16:16:41    Exception in extracting and setting permissions on the zip file System.IO.Abstractions.FileInfoWrapper:System.IO.InvalidDataException: End of Central Directory record could not be found.
+   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at Kudu.Services.Deployment.PushDeploymentController.LocalZipFetch(IRepository repository, DeploymentInfoBase deploymentInfo, String targetBranch, ILogger logger, ITracer tracer) in /tmp/KuduLite/Kudu.Services/Deployment/PushDeploymentController.cs:line 1237
+2026-03-08T16:16:45  Updating submodules.
+2026-03-08T16:16:46  Preparing deployment for commit id '77433bfb-7'.
+2026-03-08T16:16:46  PreDeployment: context.CleanOutputPath False
+2026-03-08T16:16:47  PreDeployment: context.OutputPath /home/site/wwwroot
+2026-03-08T16:16:47  Repository path is /tmp/zipdeploy/extracted
+2026-03-08T16:16:47  Running oryx build...
+2026-03-08T16:16:47    Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de7d2e185ffcec -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log
+2026-03-08T16:16:52    Operation performed by Microsoft Oryx, https://github.com/Microsoft/Oryx
+2026-03-08T16:16:52    You can report issues at https://github.com/Microsoft/Oryx/issues
+2026-03-08T16:16:52    
+2026-03-08T16:16:52    Oryx Version: 0.2.20260204.1+0fdbe200b286be083841ff7fa201c6c2316dc6b9, Commit: 0fdbe200b286be083841ff7fa201c6c2316dc6b9, ReleaseTagName: 20260204.1
+2026-03-08T16:16:52    
+2026-03-08T16:16:52    Build Operation ID: 2bcf50fce43390d8
+2026-03-08T16:16:52    Repository Commit : 77433bfb-7419-4d26-9594-cbfd391cc431
+2026-03-08T16:16:52    OS Type           : bookworm
+2026-03-08T16:16:53    Image Type        : githubactions
+2026-03-08T16:16:53    
+2026-03-08T16:16:53    Primary SDK Storage URL: https://oryx-cdn.microsoft.io
+2026-03-08T16:16:53    Backup SDK Storage URL: 
+2026-03-08T16:16:53    Detecting platforms...
+2026-03-08T16:16:53    Error: Couldn't detect a version for the platform 'nodejs' in the repo.
+2026-03-08T16:16:53    External SDK provider is enabled.
+2026-03-08T16:16:53    Could not detect any platform in the source directory.
+2026-03-08T16:16:55    Error: Couldn't detect a version for the platform 'nodejs' in the repo.
+/bin/bash -c "oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de7d2e185ffcec -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log ; exit $PIPESTATUS "
+2026-03-08T16:16:55  
+2026-03-08T16:16:55  
+2026-03-08T16:16:56  Generating summary of Oryx build
+2026-03-08T16:16:56  Parsing the build logs
+2026-03-08T16:16:56  Found 0 issue(s)
+2026-03-08T16:16:56  
+2026-03-08T16:16:56  Build Summary :
+2026-03-08T16:16:56  ===============
+2026-03-08T16:16:57  Errors (0)
+2026-03-08T16:16:57  Warnings (0)
+2026-03-08T16:16:57  
+2026-03-08T16:16:57  Deployment Failed. deployer = OneDeploy deploymentPath = OneDeploy

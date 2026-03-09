@@ -1,0 +1,28 @@
+2026-03-08T16:31:46  Fetching changes.
+2026-03-08T16:31:47    Starting  LocalZipHandler
+2026-03-08T16:31:48    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/d85f87e2-5b10-449e-b686-448f56d31848.zip (0.06 MB) to /tmp/zipdeploy/extracted
+2026-03-08T16:31:49    Exception in extracting and setting permissions on the zip file System.IO.Abstractions.FileInfoWrapper:System.IO.InvalidDataException: End of Central Directory record could not be found.
+   at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
+   at System.IO.Compression.ZipArchive..ctor(Stream stream, ZipArchiveMode mode, Boolean leaveOpen, Encoding entryNameEncoding)
+   at Kudu.Services.Deployment.PushDeploymentController.LocalZipFetch(IRepository repository, DeploymentInfoBase deploymentInfo, String targetBranch, ILogger logger, ITracer tracer) in /tmp/KuduLite/Kudu.Services/Deployment/PushDeploymentController.cs:line 1237
+2026-03-08T16:31:55  Updating submodules.
+2026-03-08T16:31:55  Preparing deployment for commit id '8deb55e7-7'.
+2026-03-08T16:31:57  PreDeployment: context.CleanOutputPath False
+2026-03-08T16:31:58  PreDeployment: context.OutputPath /home/site/wwwroot
+2026-03-08T16:31:58  Running build. Project type: OneDeploy
+2026-03-08T16:31:59  Copying the manifest
+2026-03-08T16:32:00  Running deployment command...
+2026-03-08T16:32:00    Command: /opt/Kudu/Scripts/parallel_rsync.sh /tmp/zipdeploy/extracted /home/site/wwwroot 8 /tmp/ False False  
+2026-03-08T16:32:02    Run rsync from: /tmp/zipdeploy/extracted/ to: /home/site/wwwroot/ in 8 parallel threads
+2026-03-08T16:32:02    Delete options: clean=False, use manifest=False, directory to ignore=
+2026-03-08T16:32:02    Prev manifest = /home/site/deployments/12b33136-7079-44e2-819d-fd3d428dc8d8/manifest and next /home/site/deployments/8deb55e7-7b5a-40b1-9454-73ac25f22135/manifest
+2026-03-08T16:32:02    Cleaning up /tmp//filelist.txt and /tmp//splits
+2026-03-08T16:32:03    Creating a list of all files at /tmp//filelist.txt
+2026-03-08T16:32:03    No directory to exclude.
+2026-03-08T16:32:03    ls: cannot access '/tmp//splits/split.*': No such file or directory
+2026-03-08T16:32:03    Created batches from the list of files. Processing 1 files in each thread
+2026-03-08T16:32:04    Completed successfully in 2 seconds
+2026-03-08T16:32:06  Build completed succesfully.
+2026-03-08T16:32:08  Running post deployment command(s)...
+2026-03-08T16:32:10  Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path
+2026-03-08T16:32:12  Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy

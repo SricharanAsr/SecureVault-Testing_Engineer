@@ -1,0 +1,22 @@
+2026-03-08T16:28:30.5805224Z,Updating submodules.,131bb571-ac62-4188-9731-aef790cb71de,0
+2026-03-08T16:28:33.7540055Z,Preparing deployment for commit id '42e56c7b-d'.,000ef308-2d6c-480f-a7b0-dcc548513267,0
+2026-03-08T16:28:35.8820571Z,PreDeployment: context.CleanOutputPath False,64c159ed-ac9f-4f9f-9297-c6316e3b4643,0
+2026-03-08T16:28:36.3808006Z,PreDeployment: context.OutputPath /home/site/wwwroot,16217bd7-232f-4e3b-85ae-a8a6a84adfce,0
+2026-03-08T16:28:37.4917973Z,Running build. Project type: OneDeploy,48113b39-e2db-41cc-9b24-d2e498de8665,0
+2026-03-08T16:28:38.0534315Z,Copying the manifest,912de4d0-37af-4b95-8f49-cc40fec50c34,0
+2026-03-08T16:28:39.1052169Z,Running deployment command...,57269c03-2562-427f-9ca1-e733d6c15b7c,0
+	2026-03-08T16:28:39.1860178Z,Command: /opt/Kudu/Scripts/parallel_rsync.sh /tmp/zipdeploy/extracted /home/site/wwwroot 8 /tmp/ False False  ,,0
+	2026-03-08T16:28:39.7299024Z,Run rsync from: /tmp/zipdeploy/extracted/ to: /home/site/wwwroot/ in 8 parallel threads,,0
+	2026-03-08T16:28:39.7907755Z,Delete options: clean=False&comma; use manifest=False&comma; directory to ignore=,,0
+	2026-03-08T16:28:39.9208192Z,Prev manifest = /home/site/deployments/78eca2a5-6352-4821-b135-2bb3bf8f3289/manifest and next /home/site/deployments/42e56c7b-d367-4e6e-8190-38ab2d64c142/manifest,,0
+	2026-03-08T16:28:39.9906362Z,Cleaning up /tmp//filelist.txt and /tmp//splits,,0
+	2026-03-08T16:28:40.0709294Z,ls: cannot access '/tmp//splits/split.*': No such file or directory,,1
+	2026-03-08T16:28:40.1613715Z,Creating a list of all files at /tmp//filelist.txt,,0
+	2026-03-08T16:28:40.3214371Z,No directory to exclude.,,0
+	2026-03-08T16:28:40.4326587Z,Created /tmp//filelist.txt. Total number of files to be synced = 0.,,0
+	2026-03-08T16:28:40.5346839Z,Created batches from the list of files. Processing 1 files in each thread,,0
+	2026-03-08T16:28:40.9720085Z,Completed successfully in 1 seconds,,0
+2026-03-08T16:28:42.2042617Z,Build completed succesfully.,b5f2a855-b236-4083-bf29-b3f9f8ca13d8,0
+2026-03-08T16:28:43.3117273Z,Running post deployment command(s)...,c19d4ca6-1596-4551-869e-e87b15acb24a,0
+2026-03-08T16:28:44.3197079Z,Triggering container recycle for OneDeploy by adding/updating restartTrigger.txt to the site root path,35964723-b48f-4414-aa12-ad46b15f5034,0
+2026-03-08T16:28:47.9482778Z,Deployment successful. deployer = OneDeploy deploymentPath = OneDeploy,684518ab-0129-4fab-8602-d0ead1bd1627,0

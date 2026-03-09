@@ -1,0 +1,20 @@
+{
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "title": "TC-API-002: Encrypted Storage Validation",
+          "status": "passed",
+          "failureMessages": []
+        },
+        {
+          "title": "TC-SYNC-001: Multi-Device Sync",
+          "status": "failed",
+          "failureMessages": [
+            "Conflict detected"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2026-03-08T16:18:36.468" instance="ede6ac" url="/api/deployments/latest" method="GET" type="request" pid="835,1,21" Accept="*/*" Host="app-zerovault-backend-sea.scm.azurewebsites.net" User-Agent="AZURECLI/2.84.0 (MSI)" Accept-Encoding="gzip, deflate" Authorization="Bea..." x-ms-client-request-id="629937ad-1b0a-11f1-8863-98af65d771c4" X-ARR-LOG-ID="629937ad-1b0a-11f1-8863-98af65d771c4" CLIENT-IP="106.192.71.181:64886" X-SITE-DEPLOYMENT-ID="app-zerovault-backend-sea" WAS-DEFAULT-HOSTNAME="app-zerovault-backend-sea.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments/latest" X-Client-IP="106.192.71.181" X-Client-Port="64886" >
+  <step title="Cleanup Xml Logs" date="2026-03-08T16:18:36.479" /><!-- duration: 11ms -->
+  <step title="DeploymentService.GetResult" date="2026-03-08T16:18:36.548" >
+    <step title="DeploymentService.GetLatestDeployment" date="2026-03-08T16:18:36.568" >
+      <step title="DeploymentManager.GetResults" date="2026-03-08T16:18:36.600" /><!-- duration: 935ms -->
+    </step><!-- duration: 1044ms -->
+  </step><!-- duration: 1106ms -->
+  <step title="Outgoing response" date="2026-03-08T16:18:37.685" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 9ms -->
+</step><!-- duration: 1237ms -->

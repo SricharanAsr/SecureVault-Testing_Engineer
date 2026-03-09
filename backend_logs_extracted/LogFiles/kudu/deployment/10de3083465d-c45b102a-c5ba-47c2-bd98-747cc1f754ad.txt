@@ -1,0 +1,108 @@
+2026-03-08T16:40:55  Fetching changes.
+2026-03-08T16:40:55    Starting  LocalZipHandler
+2026-03-08T16:40:56    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/96273f4e-46ed-4fc0-b4e4-78012f255737.zip (0.06 MB) to /tmp/zipdeploy/extracted
+2026-03-08T16:41:01  Updating submodules.
+2026-03-08T16:41:02  Preparing deployment for commit id '6f5014e5-2'.
+2026-03-08T16:41:03  PreDeployment: context.CleanOutputPath False
+2026-03-08T16:41:04  PreDeployment: context.OutputPath /home/site/wwwroot
+2026-03-08T16:41:05  Repository path is /tmp/zipdeploy/extracted
+2026-03-08T16:41:07  Running oryx build...
+2026-03-08T16:41:08    Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de7d317c6ee7cc -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log
+2026-03-08T16:41:25    Operation performed by Microsoft Oryx, https://github.com/Microsoft/Oryx
+2026-03-08T16:41:25    You can report issues at https://github.com/Microsoft/Oryx/issues
+2026-03-08T16:41:26    
+2026-03-08T16:41:26    Oryx Version: 0.2.20260204.1+0fdbe200b286be083841ff7fa201c6c2316dc6b9, Commit: 0fdbe200b286be083841ff7fa201c6c2316dc6b9, ReleaseTagName: 20260204.1
+2026-03-08T16:41:26    
+2026-03-08T16:41:27    Build Operation ID: 8c63239f832c5400
+2026-03-08T16:41:28    Repository Commit : 6f5014e5-2ed6-40ab-8ebe-300b0eeb6f54
+2026-03-08T16:41:28    OS Type           : bookworm
+2026-03-08T16:41:28    Image Type        : githubactions
+2026-03-08T16:41:28    
+2026-03-08T16:41:28    Primary SDK Storage URL: https://oryx-cdn.microsoft.io
+2026-03-08T16:41:29    Backup SDK Storage URL: 
+2026-03-08T16:41:29    Detecting platforms...
+2026-03-08T16:41:30    External SDK provider is enabled.
+2026-03-08T16:41:33    Requesting metadata for platform nodejs from external SDK provider
+2026-03-08T16:41:37    Requesting metadata for platform nodejs from external SDK provider
+2026-03-08T16:41:39    Successfully requested blob for platform nodejs, blobName defaultVersion.bookworm.txt, available at /var/OryxSdks/nodejs/defaultVersion.bookworm.txt
+2026-03-08T16:41:40    Detected following platforms:
+2026-03-08T16:41:40      nodejs: 20.20.0
+2026-03-08T16:41:40    Requesting metadata for platform nodejs from external SDK provider
+2026-03-08T16:41:45    Successfully requested blob for platform nodejs, blobName nodejs-bookworm-20.20.0.tar.gz, available at /var/OryxSdks/nodejs/nodejs-bookworm-20.20.0.tar.gz
+2026-03-08T16:41:46    Version '20.20.0' of platform 'nodejs' is not installed. Generating script to install it...
+2026-03-08T16:41:47    Detected the following frameworks: Typescript,Express
+2026-03-08T16:41:48    
+2026-03-08T16:41:48    Using intermediate directory '/tmp/8de7d317c6ee7cc'.
+2026-03-08T16:41:48    
+2026-03-08T16:41:48    Copying files to the intermediate directory...
+2026-03-08T16:41:49    Copying files to intermediate directory done in 1 sec(s).
+2026-03-08T16:41:49    
+2026-03-08T16:41:49    Source directory     : /tmp/8de7d317c6ee7cc
+2026-03-08T16:41:49    Destination directory: /home/site/wwwroot
+2026-03-08T16:41:49    
+2026-03-08T16:41:50    Installing platform...
+2026-03-08T16:41:50    
+2026-03-08T16:41:50    Downloading and extracting 'nodejs' version '20.20.0' to '/tmp/oryx/platforms/nodejs/20.20.0'...
+2026-03-08T16:41:50    Detected image debian flavor: bookworm.
+2026-03-08T16:41:50    Skipping download of nodejs version 20.20.0 as it is available in external sdk provider cache...
+2026-03-08T16:41:50    Extracting contents...
+2026-03-08T16:42:45    Successfully extracted nodejs version 20.20.0 from external sdk provider cache...
+2026-03-08T16:42:45    
+2026-03-08T16:42:45    Platform installation done in 56 sec(s).
+2026-03-08T16:42:47    Running build script snippets...
+2026-03-08T16:42:47    Removing existing manifest file
+2026-03-08T16:42:47    Creating directory for command manifest file if it does not exist
+2026-03-08T16:42:47    Creating a manifest file...
+2026-03-08T16:42:47    Node Build Command Manifest file created.
+2026-03-08T16:42:47    
+2026-03-08T16:42:47    Using Node version:
+2026-03-08T16:42:47    v20.20.0
+2026-03-08T16:42:48    
+2026-03-08T16:42:48    Using Npm version:
+2026-03-08T16:42:50    10.8.2
+2026-03-08T16:42:51    
+2026-03-08T16:42:51    Running 'npm install'...
+2026-03-08T16:42:51    
+2026-03-08T16:43:26    
+2026-03-08T16:43:26    added 99 packages, and audited 100 packages in 34s
+2026-03-08T16:43:26    npm notice New major version of npm available! 10.8.2 -> 11.11.0
+2026-03-08T16:43:26    
+2026-03-08T16:43:26    npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+2026-03-08T16:43:26    26 packages are looking for funding
+2026-03-08T16:43:26    npm notice To update run: npm install -g npm@11.11.0
+2026-03-08T16:43:26      run `npm fund` for details
+2026-03-08T16:43:26    npm notice
+2026-03-08T16:43:26    
+2026-03-08T16:43:26    2 vulnerabilities (1 low, 1 high)
+2026-03-08T16:43:27    
+2026-03-08T16:43:27    To address all issues, run:
+2026-03-08T16:43:27      npm audit fix
+2026-03-08T16:43:27    
+2026-03-08T16:43:27    Run `npm audit` for details.
+2026-03-08T16:43:27    
+2026-03-08T16:43:27    Running 'npm run build'...
+2026-03-08T16:43:27    
+2026-03-08T16:43:27    
+2026-03-08T16:43:27    > server@1.0.0 build
+2026-03-08T16:43:28    > tsc
+2026-03-08T16:43:28    sh: 1: tsc: not found
+2026-03-08T16:43:28    
+2026-03-08T16:43:29    npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.11.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.11.0
+npm notice To update run: npm install -g npm@11.11.0
+npm notice
+sh: 1: tsc: not found
+/bin/bash -c "oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform nodejs --platform-version 20 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8de7d317c6ee7cc -p compress_node_modules=tar-gz | tee /tmp/oryx-build.log ; exit $PIPESTATUS "
+2026-03-08T16:43:29  
+2026-03-08T16:43:29  
+2026-03-08T16:43:29  Generating summary of Oryx build
+2026-03-08T16:43:29  Parsing the build logs
+2026-03-08T16:43:29  Found 0 issue(s)
+2026-03-08T16:43:30  
+2026-03-08T16:43:30  Build Summary :
+2026-03-08T16:43:30  ===============
+2026-03-08T16:43:30  Errors (0)
+2026-03-08T16:43:30  Warnings (0)
+2026-03-08T16:43:30  
+2026-03-08T16:43:31  Deployment Failed. deployer = OneDeploy deploymentPath = OneDeploy

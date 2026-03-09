@@ -1,0 +1,32 @@
+<step title="BackgroundTrace" date="2026-03-08T17:13:47.369" instance="ede6ac" url="/api/publish" method="POST" >
+  <step title="Cleanup Xml Logs" date="2026-03-08T17:13:47.396" /><!-- duration: 21ms -->
+  <step title="Creating temporary deployment - FetchDeploymentManager" date="2026-03-08T17:13:47.558" /><!-- duration: 2ms -->
+  <step title="Creating temporary deployment" date="2026-03-08T17:13:47.567" /><!-- duration: 121ms -->
+  <step title="Performing fetch based deployment" date="2026-03-08T17:13:47.896" >
+    <step title="Deployment timer started" date="2026-03-08T17:13:51.382" >
+      <step title="DeploymentManager.Deploy(id:cd9701ec-b344-4568-93e4-f0c0c5297ce5)" date="2026-03-08T17:13:51.411" >
+        <step title="Collecting changeset information" date="2026-03-08T17:13:51.475" /><!-- duration: 96ms -->
+        <step title="Updating submodules" date="2026-03-08T17:13:51.575" /><!-- duration: 1189ms -->
+        <step title="Determining deployment builder" date="2026-03-08T17:13:53.231" >
+          <step title="Builder is RunFromZipSiteBuilder" date="2026-03-08T17:13:53.294" /><!-- duration: 11ms -->
+        </step><!-- duration: 76ms -->
+        <step title="PreDeployment: context.CleanOutputPath False" date="2026-03-08T17:13:53.362" >
+          <step title="PreDeployment: context.OutputPath /home/site/wwwroot" date="2026-03-08T17:13:53.531" >
+            <step title="Building" date="2026-03-08T17:13:53.778" >
+              <step title="Modified file to trigger a restart of the app container." date="2026-03-08T17:13:54.448" /><!-- duration: 16ms -->
+              <step title="Skip function trigger and logicapp sync because function is not enabled." date="2026-03-08T17:13:54.496" /><!-- duration: 3ms -->
+              <step title="Purge deployment items" date="2026-03-08T17:13:56.225" >
+                <step title="Remove 22bdcaf4-, Failed, received at 03/08/2026 17:01:38" date="2026-03-08T17:13:56.333" /><!-- duration: 2ms -->
+                <step title="Remove temp-3e83, Failed, received at 03/08/2026 17:01:11" date="2026-03-08T17:13:56.403" /><!-- duration: 2ms -->
+                <step title="Remove dc790909-, Failed, received at 03/08/2026 16:48:17" date="2026-03-08T17:13:56.534" /><!-- duration: 20ms -->
+              </step><!-- duration: 332ms -->
+            </step><!-- duration: 2924ms -->
+          </step><!-- duration: 3203ms -->
+          <step title="Cleaning up temp files" date="2026-03-08T17:13:56.744" /><!-- duration: 11ms -->
+          <step title="Cleaning up temp files" date="2026-03-08T17:13:56.766" /><!-- duration: 531ms -->
+          <step title="Reloading status file with latest updates" date="2026-03-08T17:13:57.424" >
+            <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2026-03-08T17:13:57.436" /><!-- duration: 240ms -->
+          </step><!-- duration: 254ms -->
+          <step title="Cleaning up temporary deployment - fetch deployment was successful" date="2026-03-08T17:13:57.687" /><!-- duration: 2ms -->
+        </step><!-- duration: 4396ms -->
+      </step><!-- duration: 6374ms -->

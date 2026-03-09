@@ -4,6 +4,10 @@
     "outputDirectory": "App/secure_password_demo/client/dist",
     "rewrites": [
         {
+            "source": "/api/(.*)",
+            "destination": "/api/index.ts"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }

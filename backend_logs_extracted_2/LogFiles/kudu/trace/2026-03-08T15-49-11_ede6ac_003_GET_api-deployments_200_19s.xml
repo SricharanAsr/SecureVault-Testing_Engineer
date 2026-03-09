@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2026-03-08T15:49:11.532" instance="ede6ac" url="/api/deployments?warmup=true" method="GET" type="request" pid="841,1,7" Accept="*/*" Host="app-zerovault-backend-sea.scm.azurewebsites.net" User-Agent="AZURECLI/2.84.0 (MSI)" Accept-Encoding="gzip, deflate" Authorization="Bea..." Cookie="ARRAffinity=ede6ac899250351f121af301f8cfdda599577ea7a3275b53dfff74ad3ff0f869; ARRAffinitySameSite=ede6ac899250351f121af301f8cfdda599577ea7a3275b53dfff74ad3ff0f869" x-ms-client-request-id="f3a3aa3a-1b05-11f1-ab24-98af65d771c4" X-ARR-LOG-ID="f3a3aa3a-1b05-11f1-ab24-98af65d771c4" CLIENT-IP="106.192.71.181:49693" X-SITE-DEPLOYMENT-ID="app-zerovault-backend-sea" WAS-DEFAULT-HOSTNAME="app-zerovault-backend-sea.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/deployments?warmup=true" X-Client-IP="106.192.71.181" X-Client-Port="49693" >
+  <step title="DeploymentService.GetCurrentEtag" date="2026-03-08T15:49:28.868" >
+    <step title="Current Etag: &quot;8de7d28acabdd85&quot;, Cached Etag: " date="2026-03-08T15:49:28.989" /><!-- duration: 98ms -->
+  </step><!-- duration: 239ms -->
+  <step title="DeploymentService.GetDeployResults" date="2026-03-08T15:49:29.116" >
+    <step title="DeploymentManager.GetResults" date="2026-03-08T15:49:29.148" /><!-- duration: 1637ms -->
+  </step><!-- duration: 1725ms -->
+  <step title="Outgoing response" date="2026-03-08T15:49:30.954" type="response" statusCode="200" statusText="OK" /><!-- duration: 18ms -->
+</step><!-- duration: 19470ms -->
