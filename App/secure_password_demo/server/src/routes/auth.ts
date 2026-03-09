@@ -9,7 +9,7 @@ import { getRiskEngine } from '../utils/riskEngine';
 const riskEngine = getRiskEngine();
 
 const router = express.Router();
-const JWT_SECRET = process.env.JWT_SECRET || 'fallback_secret';
+const JWT_SECRET = process.env.JWT_SECRET || 'zerovault_jwt_secret_key_2024';
 
 // POST /api/auth/register
 router.post('/register', async (req: Request, res: Response) => {
