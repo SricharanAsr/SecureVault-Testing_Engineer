@@ -69,7 +69,7 @@ app.get('/api/vault', async (req, res) => {
 });
 
 // Fallback
-app.all('/api/*', (req, res) => {
+app.all('/api/*path', (req, res) => {
     res.status(404).json({ error: 'Endpoint not found in direct bridge' });
 });
 
