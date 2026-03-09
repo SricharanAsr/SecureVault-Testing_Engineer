@@ -67,16 +67,9 @@ export const riskEngine = {
 };
 
 /**
- * Helper to safely load the risk engine, falling back to JS if native is missing.
+ * Helper to safely load the risk engine. 
+ * Hardcoded to JS implementation for high-compatibility Vercel serverless deployment.
  */
 export function getRiskEngine() {
-    try {
-        // Attempt to load the native addon
-        const native = require('../../build/Release/risk_engine');
-        console.log('[RiskEngine] Successfully loaded native C++ addon.');
-        return native;
-    } catch (e) {
-        console.warn('[RiskEngine] Native addon not found. Falling back to pure JavaScript implementation.');
-        return riskEngine;
-    }
+    return riskEngine;
 }
