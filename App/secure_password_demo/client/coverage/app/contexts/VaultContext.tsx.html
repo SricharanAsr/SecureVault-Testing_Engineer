@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for extension/popup/contexts/VaultContext.tsx</title>
+    <title>Code coverage report for app/contexts/VaultContext.tsx</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../../prettify.css" />
-    <link rel="stylesheet" href="../../../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../../../sort-arrow-sprite.png);
+            background-image: url(../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../../index.html">All files</a> / <a href="index.html">extension/popup/contexts</a> VaultContext.tsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">app/contexts</a> VaultContext.tsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">65.07% </span>
+                <span class="strong">63.75% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>136/209</span>
+                <span class='fraction'>204/320</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">51.75% </span>
+                <span class="strong">45.88% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>59/114</span>
+                <span class='fraction'>78/170</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80.64% </span>
+                <span class="strong">77.5% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>25/31</span>
+                <span class='fraction'>31/40</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.31% </span>
+                <span class="strong">66.08% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>126/190</span>
+                <span class='fraction'>191/289</span>
             </div>
         
             
@@ -484,7 +484,203 @@
 <a name='L419'></a><a href='#L419'>419</a>
 <a name='L420'></a><a href='#L420'>420</a>
 <a name='L421'></a><a href='#L421'>421</a>
-<a name='L422'></a><a href='#L422'>422</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L422'></a><a href='#L422'>422</a>
+<a name='L423'></a><a href='#L423'>423</a>
+<a name='L424'></a><a href='#L424'>424</a>
+<a name='L425'></a><a href='#L425'>425</a>
+<a name='L426'></a><a href='#L426'>426</a>
+<a name='L427'></a><a href='#L427'>427</a>
+<a name='L428'></a><a href='#L428'>428</a>
+<a name='L429'></a><a href='#L429'>429</a>
+<a name='L430'></a><a href='#L430'>430</a>
+<a name='L431'></a><a href='#L431'>431</a>
+<a name='L432'></a><a href='#L432'>432</a>
+<a name='L433'></a><a href='#L433'>433</a>
+<a name='L434'></a><a href='#L434'>434</a>
+<a name='L435'></a><a href='#L435'>435</a>
+<a name='L436'></a><a href='#L436'>436</a>
+<a name='L437'></a><a href='#L437'>437</a>
+<a name='L438'></a><a href='#L438'>438</a>
+<a name='L439'></a><a href='#L439'>439</a>
+<a name='L440'></a><a href='#L440'>440</a>
+<a name='L441'></a><a href='#L441'>441</a>
+<a name='L442'></a><a href='#L442'>442</a>
+<a name='L443'></a><a href='#L443'>443</a>
+<a name='L444'></a><a href='#L444'>444</a>
+<a name='L445'></a><a href='#L445'>445</a>
+<a name='L446'></a><a href='#L446'>446</a>
+<a name='L447'></a><a href='#L447'>447</a>
+<a name='L448'></a><a href='#L448'>448</a>
+<a name='L449'></a><a href='#L449'>449</a>
+<a name='L450'></a><a href='#L450'>450</a>
+<a name='L451'></a><a href='#L451'>451</a>
+<a name='L452'></a><a href='#L452'>452</a>
+<a name='L453'></a><a href='#L453'>453</a>
+<a name='L454'></a><a href='#L454'>454</a>
+<a name='L455'></a><a href='#L455'>455</a>
+<a name='L456'></a><a href='#L456'>456</a>
+<a name='L457'></a><a href='#L457'>457</a>
+<a name='L458'></a><a href='#L458'>458</a>
+<a name='L459'></a><a href='#L459'>459</a>
+<a name='L460'></a><a href='#L460'>460</a>
+<a name='L461'></a><a href='#L461'>461</a>
+<a name='L462'></a><a href='#L462'>462</a>
+<a name='L463'></a><a href='#L463'>463</a>
+<a name='L464'></a><a href='#L464'>464</a>
+<a name='L465'></a><a href='#L465'>465</a>
+<a name='L466'></a><a href='#L466'>466</a>
+<a name='L467'></a><a href='#L467'>467</a>
+<a name='L468'></a><a href='#L468'>468</a>
+<a name='L469'></a><a href='#L469'>469</a>
+<a name='L470'></a><a href='#L470'>470</a>
+<a name='L471'></a><a href='#L471'>471</a>
+<a name='L472'></a><a href='#L472'>472</a>
+<a name='L473'></a><a href='#L473'>473</a>
+<a name='L474'></a><a href='#L474'>474</a>
+<a name='L475'></a><a href='#L475'>475</a>
+<a name='L476'></a><a href='#L476'>476</a>
+<a name='L477'></a><a href='#L477'>477</a>
+<a name='L478'></a><a href='#L478'>478</a>
+<a name='L479'></a><a href='#L479'>479</a>
+<a name='L480'></a><a href='#L480'>480</a>
+<a name='L481'></a><a href='#L481'>481</a>
+<a name='L482'></a><a href='#L482'>482</a>
+<a name='L483'></a><a href='#L483'>483</a>
+<a name='L484'></a><a href='#L484'>484</a>
+<a name='L485'></a><a href='#L485'>485</a>
+<a name='L486'></a><a href='#L486'>486</a>
+<a name='L487'></a><a href='#L487'>487</a>
+<a name='L488'></a><a href='#L488'>488</a>
+<a name='L489'></a><a href='#L489'>489</a>
+<a name='L490'></a><a href='#L490'>490</a>
+<a name='L491'></a><a href='#L491'>491</a>
+<a name='L492'></a><a href='#L492'>492</a>
+<a name='L493'></a><a href='#L493'>493</a>
+<a name='L494'></a><a href='#L494'>494</a>
+<a name='L495'></a><a href='#L495'>495</a>
+<a name='L496'></a><a href='#L496'>496</a>
+<a name='L497'></a><a href='#L497'>497</a>
+<a name='L498'></a><a href='#L498'>498</a>
+<a name='L499'></a><a href='#L499'>499</a>
+<a name='L500'></a><a href='#L500'>500</a>
+<a name='L501'></a><a href='#L501'>501</a>
+<a name='L502'></a><a href='#L502'>502</a>
+<a name='L503'></a><a href='#L503'>503</a>
+<a name='L504'></a><a href='#L504'>504</a>
+<a name='L505'></a><a href='#L505'>505</a>
+<a name='L506'></a><a href='#L506'>506</a>
+<a name='L507'></a><a href='#L507'>507</a>
+<a name='L508'></a><a href='#L508'>508</a>
+<a name='L509'></a><a href='#L509'>509</a>
+<a name='L510'></a><a href='#L510'>510</a>
+<a name='L511'></a><a href='#L511'>511</a>
+<a name='L512'></a><a href='#L512'>512</a>
+<a name='L513'></a><a href='#L513'>513</a>
+<a name='L514'></a><a href='#L514'>514</a>
+<a name='L515'></a><a href='#L515'>515</a>
+<a name='L516'></a><a href='#L516'>516</a>
+<a name='L517'></a><a href='#L517'>517</a>
+<a name='L518'></a><a href='#L518'>518</a>
+<a name='L519'></a><a href='#L519'>519</a>
+<a name='L520'></a><a href='#L520'>520</a>
+<a name='L521'></a><a href='#L521'>521</a>
+<a name='L522'></a><a href='#L522'>522</a>
+<a name='L523'></a><a href='#L523'>523</a>
+<a name='L524'></a><a href='#L524'>524</a>
+<a name='L525'></a><a href='#L525'>525</a>
+<a name='L526'></a><a href='#L526'>526</a>
+<a name='L527'></a><a href='#L527'>527</a>
+<a name='L528'></a><a href='#L528'>528</a>
+<a name='L529'></a><a href='#L529'>529</a>
+<a name='L530'></a><a href='#L530'>530</a>
+<a name='L531'></a><a href='#L531'>531</a>
+<a name='L532'></a><a href='#L532'>532</a>
+<a name='L533'></a><a href='#L533'>533</a>
+<a name='L534'></a><a href='#L534'>534</a>
+<a name='L535'></a><a href='#L535'>535</a>
+<a name='L536'></a><a href='#L536'>536</a>
+<a name='L537'></a><a href='#L537'>537</a>
+<a name='L538'></a><a href='#L538'>538</a>
+<a name='L539'></a><a href='#L539'>539</a>
+<a name='L540'></a><a href='#L540'>540</a>
+<a name='L541'></a><a href='#L541'>541</a>
+<a name='L542'></a><a href='#L542'>542</a>
+<a name='L543'></a><a href='#L543'>543</a>
+<a name='L544'></a><a href='#L544'>544</a>
+<a name='L545'></a><a href='#L545'>545</a>
+<a name='L546'></a><a href='#L546'>546</a>
+<a name='L547'></a><a href='#L547'>547</a>
+<a name='L548'></a><a href='#L548'>548</a>
+<a name='L549'></a><a href='#L549'>549</a>
+<a name='L550'></a><a href='#L550'>550</a>
+<a name='L551'></a><a href='#L551'>551</a>
+<a name='L552'></a><a href='#L552'>552</a>
+<a name='L553'></a><a href='#L553'>553</a>
+<a name='L554'></a><a href='#L554'>554</a>
+<a name='L555'></a><a href='#L555'>555</a>
+<a name='L556'></a><a href='#L556'>556</a>
+<a name='L557'></a><a href='#L557'>557</a>
+<a name='L558'></a><a href='#L558'>558</a>
+<a name='L559'></a><a href='#L559'>559</a>
+<a name='L560'></a><a href='#L560'>560</a>
+<a name='L561'></a><a href='#L561'>561</a>
+<a name='L562'></a><a href='#L562'>562</a>
+<a name='L563'></a><a href='#L563'>563</a>
+<a name='L564'></a><a href='#L564'>564</a>
+<a name='L565'></a><a href='#L565'>565</a>
+<a name='L566'></a><a href='#L566'>566</a>
+<a name='L567'></a><a href='#L567'>567</a>
+<a name='L568'></a><a href='#L568'>568</a>
+<a name='L569'></a><a href='#L569'>569</a>
+<a name='L570'></a><a href='#L570'>570</a>
+<a name='L571'></a><a href='#L571'>571</a>
+<a name='L572'></a><a href='#L572'>572</a>
+<a name='L573'></a><a href='#L573'>573</a>
+<a name='L574'></a><a href='#L574'>574</a>
+<a name='L575'></a><a href='#L575'>575</a>
+<a name='L576'></a><a href='#L576'>576</a>
+<a name='L577'></a><a href='#L577'>577</a>
+<a name='L578'></a><a href='#L578'>578</a>
+<a name='L579'></a><a href='#L579'>579</a>
+<a name='L580'></a><a href='#L580'>580</a>
+<a name='L581'></a><a href='#L581'>581</a>
+<a name='L582'></a><a href='#L582'>582</a>
+<a name='L583'></a><a href='#L583'>583</a>
+<a name='L584'></a><a href='#L584'>584</a>
+<a name='L585'></a><a href='#L585'>585</a>
+<a name='L586'></a><a href='#L586'>586</a>
+<a name='L587'></a><a href='#L587'>587</a>
+<a name='L588'></a><a href='#L588'>588</a>
+<a name='L589'></a><a href='#L589'>589</a>
+<a name='L590'></a><a href='#L590'>590</a>
+<a name='L591'></a><a href='#L591'>591</a>
+<a name='L592'></a><a href='#L592'>592</a>
+<a name='L593'></a><a href='#L593'>593</a>
+<a name='L594'></a><a href='#L594'>594</a>
+<a name='L595'></a><a href='#L595'>595</a>
+<a name='L596'></a><a href='#L596'>596</a>
+<a name='L597'></a><a href='#L597'>597</a>
+<a name='L598'></a><a href='#L598'>598</a>
+<a name='L599'></a><a href='#L599'>599</a>
+<a name='L600'></a><a href='#L600'>600</a>
+<a name='L601'></a><a href='#L601'>601</a>
+<a name='L602'></a><a href='#L602'>602</a>
+<a name='L603'></a><a href='#L603'>603</a>
+<a name='L604'></a><a href='#L604'>604</a>
+<a name='L605'></a><a href='#L605'>605</a>
+<a name='L606'></a><a href='#L606'>606</a>
+<a name='L607'></a><a href='#L607'>607</a>
+<a name='L608'></a><a href='#L608'>608</a>
+<a name='L609'></a><a href='#L609'>609</a>
+<a name='L610'></a><a href='#L610'>610</a>
+<a name='L611'></a><a href='#L611'>611</a>
+<a name='L612'></a><a href='#L612'>612</a>
+<a name='L613'></a><a href='#L613'>613</a>
+<a name='L614'></a><a href='#L614'>614</a>
+<a name='L615'></a><a href='#L615'>615</a>
+<a name='L616'></a><a href='#L616'>616</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -523,213 +719,93 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">16x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
 <span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -741,13 +817,279 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -780,14 +1122,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -798,117 +1140,165 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-yes">19x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { createContext, useContext, useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import type { VaultEntry, VaultState } from '@/shared/models/vault.types';
 import { cryptoService } from '@/shared/sync/crypto.service';
 import { syncService } from '@/shared/sync/sync.service';
+import { SyncQueueManager } from '@/shared/sync/sync.queue';
+import { getDeviceInfo } from '@/shared/utils/device.utils';
 import { useToast } from './ToastContext';
 import { useAuth } from './AuthContext';
 &nbsp;
@@ -928,7 +1318,7 @@ interface VaultContextType {
 &nbsp;
 const VaultContext = createContext&lt;VaultContextType | undefined&gt;(undefined);
 &nbsp;
-const API_BASE_URL = 'http://localhost:5000/api/vault';
+const API_BASE_URL = `${import.meta.env.VITE_BACKEND_URL || (import.meta.env.PROD ? <span class="branch-0 cbranch-no" title="branch not covered" >'' : '</span>http://localhost:5000')}/api/vault`;
 &nbsp;
 /**
  * Provider component for the Vault Context.
@@ -945,7 +1335,7 @@ const API_BASE_URL = 'http://localhost:5000/api/vault';
  */
 export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ children }) =&gt; {
     const { showToast } = useToast();
-    const { user, token } = useAuth();
+    const { user, token, logout } = useAuth();
     const [entries, setEntries] = useState&lt;VaultEntry[]&gt;([]);
     const [vaultVersion, setVaultVersion] = useState&lt;number&gt;(0);
     const [serverVersion, setServerVersion] = useState&lt;number&gt;(0);
@@ -954,106 +1344,242 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
     const [syncError, setSyncError] = useState(false);
     const [syncConflict, setSyncConflict] = useState(false);
     const [lastSynced, setLastSynced] = useState&lt;string | null&gt;(null);
-    const [outbox, setOutbox] = useState&lt;import('@/shared/models/vault.types').OutboxEvent[]&gt;([]);
     const [retryTrigger, setRetryTrigger] = useState(0);
     const userId = user?.id;
+&nbsp;
+    const queueManager = useMemo(() =&gt; {
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (!userId) <span class="cstat-no" title="statement not covered" >return null;</span>
+        return new SyncQueueManager(userId);
+    }, [userId]);
+&nbsp;
+    const [queueSize, setQueueSize] = useState(0);
+&nbsp;
+    // Update queue size whenever outbox changes
+    const updateQueueSize = useCallback(() =&gt; {
+        <span class="missing-if-branch" title="else path not taken" >E</span>if (queueManager) {
+            setQueueSize(queueManager.size);
+        }
+    }, [queueManager]);
+&nbsp;
+    // Stable refs to avoid re-triggering effects when callback references change
+    const logoutRef = useRef(logout);
+    const showToastRef = useRef(showToast);
+    const tokenRef = useRef(token);
+    // Flag: true when a cross-tab BroadcastChannel message triggered a state update.
+    // Prevents the persist effect from re-broadcasting back, which would cause an infinite loop.
+    const isCrossTabUpdateRef = useRef(false);
+    useEffect(() =&gt; { logoutRef.current = logout; }, [logout]);
+    useEffect(() =&gt; { showToastRef.current = showToast; }, [showToast]);
+    useEffect(() =&gt; { tokenRef.current = token; }, [token]);
 &nbsp;
     const syncStatus = useMemo(() =&gt; {
         <span class="missing-if-branch" title="if path not taken" >I</span>if (syncConflict) <span class="cstat-no" title="statement not covered" >return 'error';</span>
         <span class="missing-if-branch" title="if path not taken" >I</span>if (syncError) <span class="cstat-no" title="statement not covered" >return 'error';</span>
         if (isSyncing) return 'syncing';
-        if (outbox.length &gt; 0) return 'pending';
+        if (queueSize &gt; 0) return 'pending';
         // Check version mismatch (Pending means we have local changes not yet synced/outboxed)
         if (vaultVersion &gt; serverVersion) return 'pending';
         return isOnline ? 'synced' : 'offline';
-    }, [isSyncing, syncError, syncConflict, vaultVersion, serverVersion, isOnline, outbox.length]);
+    }, [isSyncing, syncError, syncConflict, vaultVersion, serverVersion, isOnline, queueSize]);
 &nbsp;
-    // Initialize logic
+    // Initialize logic — runs only when user or token changes (not on network toggle)
     useEffect(() =&gt; {
+        let mounted = true;
         const initializeVault = async () =&gt; {
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (!userId) <span class="cstat-no" title="statement not covered" >return;</span>
+            <span class="missing-if-branch" title="if path not taken" >I</span>if (!userId || !token) <span class="cstat-no" title="statement not covered" >return;</span>
 &nbsp;
-            // Load Outbox
-            const savedOutboxStr = localStorage.getItem(`vault_outbox_${userId}`);
+            // Load Outbox via QueueManager
             let currentOutbox: import('@/shared/models/vault.types').OutboxEvent[] = [];
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (savedOutboxStr) {
-<span class="cstat-no" title="statement not covered" >                try {</span>
-<span class="cstat-no" title="statement not covered" >                    currentOutbox = JSON.parse(savedOutboxStr);</span>
-<span class="cstat-no" title="statement not covered" >                    setOutbox(currentOutbox);</span>
-                } catch (e) {
-<span class="cstat-no" title="statement not covered" >                    console.error('Failed to parse outbox', e);</span>
-                }
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (queueManager) {
+                currentOutbox = queueManager.getQueue();
+                setQueueSize(currentOutbox.length);
             }
 &nbsp;
-            // 1. Try to fetch from server first
-            if (isOnline &amp;&amp; token) {
-                try {
-                    const response = await fetch(API_BASE_URL, {
-                        headers: {
-                            'Authorization': `Bearer ${token}`
-                        }
-                    });
-                    <span class="missing-if-branch" title="else path not taken" >E</span>if (response.ok) {
-                        const data = await response.json();
-                        console.log('Initial fetch success:', data);
+            // Read localStorage regardless — used as fallback / merge source
+            let localEntries: VaultEntry[] = [];
+            let localVersion = 0;
+            try {
+                const savedData = localStorage.getItem(`vault_storage_${userId}`);
+                <span class="missing-if-branch" title="if path not taken" >I</span>if (savedData) {
+                    const parsed: VaultState = <span class="cstat-no" title="statement not covered" >JSON.parse(savedData);</span>
+<span class="cstat-no" title="statement not covered" >                    localEntries = parsed.entries || [];</span>
+<span class="cstat-no" title="statement not covered" >                    localVersion = parsed.vaultVersion || 0;</span>
+                }
+            } catch (e) {
+<span class="cstat-no" title="statement not covered" >                console.warn('Could not read localStorage on init', e);</span>
+            }
 &nbsp;
-                        // Conflict Resolution on Load: Check for stale outbox
-                        <span class="missing-if-branch" title="if path not taken" >I</span>if (currentOutbox.length &gt; 0) {
-                            const firstEvent = <span class="cstat-no" title="statement not covered" >currentOutbox[0];</span>
-                            const serverVer = <span class="cstat-no" title="statement not covered" >data.vaultVersion || 0;</span>
-                            // If our baseVersion matches server, we are good to sync. 
-                            // If baseVersion != serverVer, we are stale.
-<span class="cstat-no" title="statement not covered" >                            if (firstEvent.delta.baseVersion !== serverVer) {</span>
-<span class="cstat-no" title="statement not covered" >                                console.warn(`Conflict detected on load. Pruning stale outbox (Base ${firstEvent.delta.baseVersion} vs Server ${serverVer})`);</span>
-<span class="cstat-no" title="statement not covered" >                                setOutbox([]);</span>
-<span class="cstat-no" title="statement not covered" >                                currentOutbox = [];</span>
-<span class="cstat-no" title="statement not covered" >                                localStorage.removeItem(`vault_outbox_${userId}`);</span>
-<span class="cstat-no" title="statement not covered" >                                showToast('Conflict resolved: Local changes discarded.', 'info');</span>
-                            }
-                        }
+            // --- Device Registration ---
+            const deviceIdStorageKey = `vault_device_id_${userId}`;
+            let deviceId = localStorage.getItem(deviceIdStorageKey);
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (!deviceId) {
+                deviceId = crypto.randomUUID();
+                localStorage.setItem(deviceIdStorageKey, deviceId);
+            }
 &nbsp;
-                        if (currentOutbox.length === 0) {
-                            setEntries(data.encryptedEntries || <span class="branch-1 cbranch-no" title="branch not covered" >[])</span>;
-                            setVaultVersion(data.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >0)</span>;
-                        } else <span class="missing-if-branch" title="else path not taken" >E</span>{
-<span class="cstat-no" title="statement not covered" >                            console.log('Outbox pending - skipping overwrite of local entries until sync completes.');</span>
-                        }
+            try {
+                const deviceInfo = getDeviceInfo();
+                await fetch(`${import.meta.env.VITE_BACKEND_URL || (import.meta.env.PROD ? <span class="branch-0 cbranch-no" title="branch not covered" >'' : '</span>http://localhost:5000')}/api/devices/register`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify({
+                        device_id: deviceId,
+                        device_name: deviceInfo
+                    })
+                });
+                console.log('Device registered/updated:', deviceInfo);
+            } catch (e) {
+<span class="cstat-no" title="statement not covered" >                console.warn('Failed to register device during init', e);</span>
+            }
+            // ---------------------------
 &nbsp;
-                        setServerVersion(data.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >0)</span>;
+            // 1. Always try to fetch from server first (source of truth)
+            try {
+                const response = await fetch(API_BASE_URL, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+&nbsp;
+                <span class="missing-if-branch" title="if path not taken" >I</span>if (!mounted) <span class="cstat-no" title="statement not covered" >return;</span>
+&nbsp;
+                <span class="missing-if-branch" title="if path not taken" >I</span>if (response.status === 401) {
+<span class="cstat-no" title="statement not covered" >                    console.error('Server rejected token. Logging out.');</span>
+<span class="cstat-no" title="statement not covered" >                    showToastRef.current('Session expired. Please log in again.', 'error');</span>
+<span class="cstat-no" title="statement not covered" >                    logoutRef.current();</span>
+<span class="cstat-no" title="statement not covered" >                    return;</span>
+                }
+&nbsp;
+                <span class="missing-if-branch" title="else path not taken" >E</span>if (response.ok) {
+                    const data = await response.json();
+                    const serverVer = data.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >0;</span>
+                    const serverEntries: VaultEntry[] = (data.encryptedEntries || <span class="branch-1 cbranch-no" title="branch not covered" >[]).f</span>ilter(
+<span class="fstat-no" title="function not covered" >                        (e</span>: VaultEntry) =&gt; <span class="cstat-no" title="statement not covered" >!e.isDeleted</span>
+                    );
+&nbsp;
+                    console.log(`Init: server has ${serverEntries.length} entries (v${serverVer}), local has ${localEntries.length} entries (v${localVersion})`);
+&nbsp;
+                    // Check for stale outbox
+                    <span class="missing-if-branch" title="if path not taken" >I</span>if (currentOutbox.length &gt; 0) {
+                        const firstEvent = <span class="cstat-no" title="statement not covered" >currentOutbox[0];</span>
+<span class="cstat-no" title="statement not covered" >                        if (firstEvent.delta.baseVersion !== serverVer) {</span>
+<span class="cstat-no" title="statement not covered" >                            console.warn(`Stale outbox (Base v${firstEvent.delta.baseVersion} vs Server v${serverVer}). Discarding.`);</span>
+<span class="cstat-no" title="statement not covered" >                            queueManager?.clear();</span>
+<span class="cstat-no" title="statement not covered" >                            currentOutbox = [];</span>
+<span class="cstat-no" title="statement not covered" >                            updateQueueSize();</span>
+                        }
+                    }
+&nbsp;
+                    <span class="missing-if-branch" title="if path not taken" >I</span>if (currentOutbox.length &gt; 0) {
+                        // Pending local changes — keep local state, process queue will sync
+<span class="cstat-no" title="statement not covered" >                        console.log('Outbox has pending changes — keeping local state.');</span>
+<span class="cstat-no" title="statement not covered" >                        if (mounted) {</span>
+<span class="cstat-no" title="statement not covered" >                            setEntries(localEntries);</span>
+<span class="cstat-no" title="statement not covered" >                            setVaultVersion(localVersion);</span>
+<span class="cstat-no" title="statement not covered" >                            setServerVersion(serverVer);</span>
+                        }
+                    <span class="missing-if-branch" title="if path not taken" >I</span>} else if (serverEntries.length &gt; 0) {
+                        // Server has data — it's authoritative
+<span class="cstat-no" title="statement not covered" >                        console.log('Using server entries as source of truth.');</span>
+<span class="cstat-no" title="statement not covered" >                        if (mounted) {</span>
+<span class="cstat-no" title="statement not covered" >                            setEntries(serverEntries);</span>
+<span class="cstat-no" title="statement not covered" >                            setVaultVersion(serverVer);</span>
+<span class="cstat-no" title="statement not covered" >                            setServerVersion(serverVer);</span>
+                        }
+                    <span class="missing-if-branch" title="if path not taken" >I</span>} else if (localEntries.length &gt; 0) {
+                        // Server empty but local has data — restore local data and push to server
+                        // This happens when: user clears server, server resets, or first sync on a new account
+<span class="cstat-no" title="statement not covered" >                        console.log('Server empty but local has data. Restoring local entries and scheduling upload to server.');</span>
+<span class="cstat-no" title="statement not covered" >                        if (mounted) {</span>
+<span class="cstat-no" title="statement not covered" >                            setEntries(localEntries);</span>
+                            // Bump vaultVersion above serverVersion to trigger syncVault auto-push
+                            const bumpedVersion = <span class="cstat-no" title="statement not covered" >Math.max(localVersion, serverVer) + 1;</span>
+<span class="cstat-no" title="statement not covered" >                            setVaultVersion(bumpedVersion);</span>
+<span class="cstat-no" title="statement not covered" >                            setServerVersion(serverVer);</span>
+<span class="cstat-no" title="statement not covered" >                            showToastRef.current('Local entries restored — syncing to server...', 'info');</span>
+                        }
+                    } else {
+                        // Both server and local are empty — new user, fresh state
+                        console.log('Both server and local are empty. Fresh vault.');
+                        <span class="missing-if-branch" title="else path not taken" >E</span>if (mounted) {
+                            setEntries([]);
+                            setVaultVersion(serverVer);
+                            setServerVersion(serverVer);
+                        }
+                    }
+&nbsp;
+                    <span class="missing-if-branch" title="else path not taken" >E</span>if (mounted) {
                         setSyncError(false);
                         setSyncConflict(false);
-                        return;
                     }
-                } catch (e) {
-<span class="cstat-no" title="statement not covered" >                    console.error('Failed to fetch from server', e);</span>
-<span class="cstat-no" title="statement not covered" >                    setSyncError(true);</span>
+                    return;
                 }
+            } catch (e) {
+<span class="cstat-no" title="statement not covered" >                console.error('Failed to fetch vault from server', e);</span>
+<span class="cstat-no" title="statement not covered" >                if (mounted) <span class="cstat-no" title="statement not covered" >setSyncError(true);</span></span>
             }
 &nbsp;
-            // 2. Fallback to localStorage
-            const savedData = localStorage.getItem(`vault_storage_${userId}`);
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (savedData) {
-<span class="cstat-no" title="statement not covered" >                try {</span>
-                    const parsed: VaultState = <span class="cstat-no" title="statement not covered" >JSON.parse(savedData);</span>
-<span class="cstat-no" title="statement not covered" >                    setEntries(parsed.entries || []);</span>
-<span class="cstat-no" title="statement not covered" >                    setVaultVersion(parsed.vaultVersion || 0);</span>
-<span class="cstat-no" title="statement not covered" >                    setServerVersion(parsed.serverVersion || 0);</span>
-<span class="cstat-no" title="statement not covered" >                    setSyncError(false);</span>
-                } catch (e) {
-<span class="cstat-no" title="statement not covered" >                    console.error('Failed to parse (fallback)', e);</span>
-                }
+            // 2. Fallback: server unreachable — use localStorage
+<span class="cstat-no" title="statement not covered" >            if (localEntries.length &gt; 0 &amp;&amp; mounted) {</span>
+<span class="cstat-no" title="statement not covered" >                console.log('Server unreachable. Loading from localStorage.');</span>
+<span class="cstat-no" title="statement not covered" >                setEntries(localEntries);</span>
+<span class="cstat-no" title="statement not covered" >                setVaultVersion(localVersion);</span>
             }
         };
 &nbsp;
         initializeVault();
-    }, [userId, isOnline, token]);
+        return () =&gt; { mounted = false; };
+    }, [userId, token, queueManager, updateQueueSize]); // isOnline intentionally excluded — init runs on auth, not network change
 &nbsp;
-    // Save Outbox
+    // BroadcastChannel for cross-tab eventual consistency
+    // When another tab confirms a server sync, we do a fresh GET from the server
+    // (NOT just localStorage) to ensure our state matches the authoritative server state.
+    // This prevents a cascade where loading bumped localStorage versions triggers a re-sync loop.
     useEffect(() =&gt; {
-        <span class="missing-if-branch" title="else path not taken" >E</span>if (userId) {
-            localStorage.setItem(`vault_outbox_${userId}`, JSON.stringify(outbox));
-        }
-    }, [outbox, userId]);
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (!userId) <span class="cstat-no" title="statement not covered" >return;</span>
+&nbsp;
+        const channel = new BroadcastChannel(`vault_sync_channel_${userId}`);
+&nbsp;
+        channel.onmessage = async (event) =&gt; {
+            console.log('Cross-tab message received:', event.data.type);
+            <span class="missing-if-branch" title="else path not taken" >E</span>if (event.data.type === 'VAULT_UPDATED') {
+                const currentToken = tokenRef.current;
+                <span class="missing-if-branch" title="if path not taken" >I</span>if (!currentToken) {
+<span class="cstat-no" title="statement not covered" >                    console.warn('Cross-tab update skipped: No token available.');</span>
+<span class="cstat-no" title="statement not covered" >                    return;</span>
+                }
+&nbsp;
+                try {
+                    console.log('Fetching authoritative state from server for cross-tab update...');
+                    const response = await fetch(API_BASE_URL, {
+                        headers: { 'Authorization': `Bearer ${currentToken}` }
+                    });
+                    <span class="missing-if-branch" title="if path not taken" >I</span>if (!response.ok) <span class="cstat-no" title="statement not covered" >throw new Error(`Fetch failed: ${response.status}`);</span>
+&nbsp;
+                    const data = await response.json();
+                    const serverVer = data.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >0;</span>
+                    const serverEntries: VaultEntry[] = (data.encryptedEntries || <span class="branch-1 cbranch-no" title="branch not covered" >[]).f</span>ilter(
+                        (e: VaultEntry) =&gt; !e.isDeleted
+                    );
+&nbsp;
+                    console.log(`Cross-tab sync: Server has ${serverEntries.length} entries (v${serverVer})`);
+&nbsp;
+                    // Mark as cross-tab update so persist effect doesn't re-broadcast
+                    isCrossTabUpdateRef.current = true;
+                    setEntries(serverEntries);
+                    // Set both versions to the server version so auto-trigger never fires
+                    setVaultVersion(serverVer);
+                    setServerVersion(serverVer);
+                    updateQueueSize();
+                } catch (e) {
+<span class="cstat-no" title="statement not covered" >                    console.error('Cross-tab refresh from server failed:', e);</span>
+                }
+            }
+        };
+&nbsp;
+        return () =&gt; { channel.close(); };
+    }, [userId, updateQueueSize]);
 &nbsp;
     // Clear state on logout
     useEffect(() =&gt; {
@@ -1061,7 +1587,7 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
 <span class="cstat-no" title="statement not covered" >            setEntries([]);</span>
 <span class="cstat-no" title="statement not covered" >            setVaultVersion(0);</span>
 <span class="cstat-no" title="statement not covered" >            setServerVersion(0);</span>
-<span class="cstat-no" title="statement not covered" >            setOutbox([]);</span>
+<span class="cstat-no" title="statement not covered" >            setQueueSize(0);</span>
 <span class="cstat-no" title="statement not covered" >            setSyncConflict(false);</span>
         }
     }, [userId]);
@@ -1095,14 +1621,29 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
         setRetryTrigger(prev =&gt; prev + 1);
         setSyncError(false); // Clear error allowing retry
 &nbsp;
-        console.log(`Checking for changes... Vault v${vaultVersion} vs Server v${serverVersion}`);
+        // Get or generate a device ID
+        const storageKey = `vault_device_id_${userId}`;
+        let deviceId = localStorage.getItem(storageKey);
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (!deviceId) {
+<span class="cstat-no" title="statement not covered" >            deviceId = crypto.randomUUID();</span>
+<span class="cstat-no" title="statement not covered" >            localStorage.setItem(storageKey, deviceId);</span>
+        }
+&nbsp;
+        console.log(`Checking for changes... Vault v${vaultVersion} vs Server v${serverVersion} on device ${deviceId}`);
         console.log('Entries:', entries.length);
 &nbsp;
-        const delta = syncService.calculateDelta(entries, serverVersion);
-        console.log('Calculated Delta:', delta);
+        const delta = syncService.calculateDelta(entries, serverVersion, deviceId);
+        console.log('Calculated Delta:', {
+            added: delta.added.length,
+            updated: delta.updated.length,
+            deleted: delta.deleted.length,
+            baseVersion: delta.baseVersion,
+            eventId: delta.eventId
+        });
 &nbsp;
         <span class="missing-if-branch" title="if path not taken" >I</span>if (delta.added.length === 0 &amp;&amp; delta.updated.length === 0 &amp;&amp; <span class="branch-2 cbranch-no" title="branch not covered" >delta.deleted.length === 0) {</span>
-<span class="cstat-no" title="statement not covered" >            console.log('No changes to sync.');</span>
+<span class="cstat-no" title="statement not covered" >            console.log(`No changes to sync (v${vaultVersion} matches server v${serverVersion}) — reconciling.`);</span>
+<span class="cstat-no" title="statement not covered" >            setVaultVersion(<span class="fstat-no" title="function not covered" >prev =&gt; <span class="cstat-no" title="statement not covered" >M</span>ath.max(prev, serverVersion) === serverVersion ? serverVersion : prev)</span>;</span>
 <span class="cstat-no" title="statement not covered" >            return;</span>
         }
 &nbsp;
@@ -1114,19 +1655,13 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
 &nbsp;
         console.log('Queueing event to outbox:', event);
 &nbsp;
-        setOutbox(prev =&gt; {
-            const last = prev[prev.length - 1];
-            // Optimization: Merge if same baseVersion
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (last &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >last.delta.baseVersion === delta.baseVersion) {</span>
-<span class="cstat-no" title="statement not covered" >                console.log('Merging with previous outbox event');</span>
-<span class="cstat-no" title="statement not covered" >                return [...prev.slice(0, -1), event];</span>
-            }
-            return [...prev, event];
-        });
+        <span class="missing-if-branch" title="else path not taken" >E</span>if (queueManager) {
+            queueManager.enqueue(event);
+            updateQueueSize();
+        }
 &nbsp;
-    }, [userId, entries, serverVersion, syncConflict]); // vaultVersion implied by entries check
+    }, [userId, entries, serverVersion, syncConflict, queueManager, updateQueueSize]); // vaultVersion implied by entries check
 &nbsp;
-    // Auto-trigger sync generation when version changes
     // Auto-trigger sync generation when version changes
     useEffect(() =&gt; {
         // If we have changes (vault &gt; server) and no pending outbox (or maybe we want to keep adding?)
@@ -1134,13 +1669,15 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
         // If outbox has items, we might want to wait? 
         // Current logic: If outbox is empty, we are ready to generate next batch.
         // CHANGED: Removed isOnline check so we queue to outbox even if offline.
-        if (vaultVersion &gt; serverVersion &amp;&amp; outbox.length === 0) {
+        if (vaultVersion &gt; serverVersion &amp;&amp; queueSize === 0) {
             console.log('Auto-triggering syncVault...');
             syncVault();
         }
-    }, [vaultVersion, serverVersion, outbox.length, syncVault]);
+    }, [vaultVersion, serverVersion, queueSize, syncVault]);
 &nbsp;
-    // Persist storage
+    // Persist storage to localStorage — does NOT broadcast to other tabs.
+    // Broadcasting only happens after a confirmed server sync, ensuring other tabs
+    // only see changes that have been committed to Supabase (not offline-pending changes).
     useEffect(() =&gt; {
         <span class="missing-if-branch" title="else path not taken" >E</span>if (userId) {
             const state: VaultState = { entries, vaultVersion, serverVersion };
@@ -1164,9 +1701,8 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
 &nbsp;
         setEntries(prev =&gt; [...prev, newEntry]);
         setVaultVersion(Math.max(vaultVersion, serverVersion) + 1);
-        showToast('Entry added', 'success');
-        // Removed requestAnimationFrame manual call. Rely on Effect.
-    }, [showToast, vaultVersion, serverVersion]);
+        // Toast is shown by the caller (Dashboard) to avoid duplicates
+    }, [vaultVersion, serverVersion]);
 &nbsp;
     const updateEntry = useCallback(<span class="fstat-no" title="function not covered" >async (i</span>d: number, entryData: Partial&lt;VaultEntry&gt;) =&gt; {
         const finalEntryData = <span class="cstat-no" title="statement not covered" >{ ...entryData };</span>
@@ -1201,11 +1737,11 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
         }));
 &nbsp;
 <span class="cstat-no" title="statement not covered" >        setVaultVersion(Math.max(vaultVersion, serverVersion) + 1);</span>
-<span class="cstat-no" title="statement not covered" >        showToast('Entry updated', 'success');</span>
-        // Removed requestAnimationFrame
-    }, [entries, showToast, vaultVersion, serverVersion]);
+        // Toast is shown by the caller (Dashboard) to avoid duplicates
+    }, [entries, vaultVersion, serverVersion]);
 &nbsp;
     const deleteEntry = useCallback(async (id: number) =&gt; {
+        console.log('deleteEntry triggered for id:', id);
         setEntries(prev =&gt; prev.map(e =&gt; {
             <span class="missing-if-branch" title="else path not taken" >E</span>if (e.id === id) {
                 return {
@@ -1219,22 +1755,23 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
 <span class="cstat-no" title="statement not covered" >            return e;</span>
         }));
         setVaultVersion(Math.max(vaultVersion, serverVersion) + 1);
-        showToast('Entry deleted', 'success');
-        // Removed requestAnimationFrame
-    }, [showToast, vaultVersion, serverVersion]);
+        // Toast is shown by the caller (Dashboard) to avoid duplicates
+    }, [vaultVersion, serverVersion]);
 &nbsp;
     // Process Outbox Effect
     useEffect(() =&gt; {
         let mounted = true;
         const process = async () =&gt; {
-            <span class="missing-if-branch" title="if path not taken" >I</span>if (!isOnline || outbox.length === 0 || syncConflict || !userId || !token) {
+            <span class="missing-if-branch" title="if path not taken" >I</span>if (!queueManager) <span class="cstat-no" title="statement not covered" >return;</span>
+            const currentOutbox = queueManager.getQueue();
+            <span class="missing-if-branch" title="if path not taken" >I</span>if (!isOnline || currentOutbox.length === 0 || syncConflict || !userId || !token) {
                 // logs can be noisy, but good for debug
                 // console.log('Skipping process:', { isOnline, len: outbox.length, syncConflict, userId });
 <span class="cstat-no" title="statement not covered" >                return;</span>
             }
 &nbsp;
             setIsSyncing(true);
-            const event = outbox[0];
+            const event = currentOutbox[0];
             console.log('Processing outbox event:', event.eventId);
 &nbsp;
             try {
@@ -1247,14 +1784,51 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
                     body: JSON.stringify(event.delta)
                 });
 &nbsp;
-                console.log('Sync Response Status:', response.status);
+                console.log(`Sync Response: ${response.status} ${response.statusText} for event ${event.eventId}`);
 &nbsp;
                 <span class="missing-if-branch" title="if path not taken" >I</span>if (response.status === 409) {
-                    const errorJson = <span class="cstat-no" title="statement not covered" >await response.json();</span>
-<span class="cstat-no" title="statement not covered" >                    console.warn('Sync Conflict:', errorJson);</span>
-<span class="cstat-no" title="statement not covered" >                    setSyncConflict(true);</span>
-<span class="cstat-no" title="statement not covered" >                    setSyncError(true);</span>
-<span class="cstat-no" title="statement not covered" >                    showToast('Sync Conflict detected! Please refresh.', 'error');</span>
+<span class="cstat-no" title="statement not covered" >                    console.warn('Sync Conflict (409). Initiating client-side resolution...');</span>
+                    // 1. Fetch latest server state
+                    const pullRes = <span class="cstat-no" title="statement not covered" >await fetch(API_BASE_URL, {</span>
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+<span class="cstat-no" title="statement not covered" >                    if (!pullRes.ok) <span class="cstat-no" title="statement not covered" >throw new Error('Failed to pull server state for resolution');</span></span>
+                    const pullData = <span class="cstat-no" title="statement not covered" >await pullRes.json();</span>
+&nbsp;
+                    // 2. Construct pseudo-delta for resolveConflicts
+                    const serverDeltas: typeof event.delta = <span class="cstat-no" title="statement not covered" >{</span>
+                        eventId: crypto.randomUUID(),
+                        device_id: 'server',
+                        added: [],
+                        updated: pullData.encryptedEntries || [],
+                        deleted: [],
+                        baseVersion: pullData.vaultVersion || 0
+                    };
+&nbsp;
+                    // 3. Resolve conflicts
+                    const resolvedEntries = <span class="cstat-no" title="statement not covered" >syncService.resolveConflicts(entries, serverDeltas);</span>
+                    const newLocalVersion = <span class="cstat-no" title="statement not covered" >Math.max(vaultVersion, pullData.vaultVersion || 0) + 1;</span>
+&nbsp;
+                    // 4. Update local state with version-stamped resolved entries
+<span class="cstat-no" title="statement not covered" >                    if (mounted) {</span>
+                        const versionedEntries = <span class="cstat-no" title="statement not covered" >resolvedEntries.map(<span class="fstat-no" title="function not covered" >e =&gt; (<span class="cstat-no" title="statement not covered" >{</span> ...e, version: newLocalVersion }))</span>;</span>
+<span class="cstat-no" title="statement not covered" >                        console.log(`Conflict resolved locally. Pulled v${pullData.vaultVersion}, new converged v${newLocalVersion}. Enqueueing reconciliation sync.`);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                        setEntries(versionedEntries);</span>
+<span class="cstat-no" title="statement not covered" >                        setVaultVersion(newLocalVersion);</span>
+<span class="cstat-no" title="statement not covered" >                        setServerVersion(pullData.vaultVersion || 0);</span>
+&nbsp;
+                        // 5. Clear outbox to re-trigger generation with new baseVersion
+<span class="cstat-no" title="statement not covered" >                        queueManager?.clear();</span>
+<span class="cstat-no" title="statement not covered" >                        updateQueueSize();</span>
+<span class="cstat-no" title="statement not covered" >                        setSyncConflict(false);</span>
+<span class="cstat-no" title="statement not covered" >                        setSyncError(false);</span>
+                        // Broadcast server-confirmed state to other tabs
+                        const ch = <span class="cstat-no" title="statement not covered" >new BroadcastChannel(`vault_sync_channel_${userId}`);</span>
+<span class="cstat-no" title="statement not covered" >                        ch.postMessage({ type: 'VAULT_UPDATED', timestamp: Date.now() });</span>
+<span class="cstat-no" title="statement not covered" >                        ch.close();</span>
+<span class="cstat-no" title="statement not covered" >                        showToast('Conflict resolved. Syncing merged state...', 'info');</span>
+                    }
 <span class="cstat-no" title="statement not covered" >                    setIsSyncing(false);</span>
 <span class="cstat-no" title="statement not covered" >                    return;</span>
                 }
@@ -1265,16 +1839,24 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
                 console.log('Sync Success:', result);
 &nbsp;
                 <span class="missing-if-branch" title="else path not taken" >E</span>if (mounted) {
-                    // Success - Remove from Outbox
-                    setOutbox(prev =&gt; prev.filter(e =&gt; e.eventId !== event.eventId));
+                    // Sync successful — remove from outbox
+                    queueManager?.remove(event.eventId);
+                    updateQueueSize();
 &nbsp;
-                    <span class="missing-if-branch" title="if path not taken" >I</span>if (result.entries) {
-<span class="cstat-no" title="statement not covered" >                        setEntries(result.entries);</span>
-<span class="cstat-no" title="statement not covered" >                        setVaultVersion(result.vaultVersion || result.entries.length);</span>
+                    <span class="missing-if-branch" title="else path not taken" >E</span>if (result.entries) {
+                        setEntries(result.entries);
+                        setVaultVersion(result.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >result.entries.length)</span>;
                     }
                     setServerVersion(result.vaultVersion || <span class="branch-1 cbranch-no" title="branch not covered" >result.entries.length)</span>;
                     setLastSynced(result.lastSyncedAt);
                     setSyncError(false);
+&nbsp;
+                    // Broadcast to other tabs ONLY now that the change is server-confirmed.
+                    // This ensures Tab B does NOT show Tab A's offline changes until they're synced.
+                    const ch = new BroadcastChannel(`vault_sync_channel_${userId}`);
+                    ch.postMessage({ type: 'VAULT_UPDATED', timestamp: Date.now() });
+                    ch.close();
+&nbsp;
                     showToast('Sync completed', 'success');
                 }
             } catch (error) {
@@ -1286,12 +1868,12 @@ export const VaultProvider: React.FC&lt;{ children: React.ReactNode }&gt; = ({ c
             }
         };
 &nbsp;
-        if (isOnline &amp;&amp; outbox.length &gt; 0 &amp;&amp; !isSyncing) {
+        if (isOnline &amp;&amp; queueSize &gt; 0 &amp;&amp; !isSyncing) {
             process();
         }
 &nbsp;
         return () =&gt; { mounted = false; };
-    }, [outbox, isOnline, syncConflict, token, userId, showToast, retryTrigger]); // Added retryTrigger
+    }, [queueSize, isOnline, syncConflict, token, userId, showToast, retryTrigger, queueManager, updateQueueSize]); // Added retryTrigger
 &nbsp;
     return (
         &lt;VaultContext.Provider value={{
@@ -1333,16 +1915,16 @@ export const useVault = () =&gt; {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-02-27T16:57:17.047Z
+                at 2026-03-10T17:02:10.919Z
             </div>
-        <script src="../../../prettify.js"></script>
+        <script src="../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../../../sorter.js"></script>
-        <script src="../../../block-navigation.js"></script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
     </body>
 </html>
     
