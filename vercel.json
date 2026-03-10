@@ -10,7 +10,7 @@
         },
         {
             "source": "/(.*)",
-            "destination": "/App/secure_password_demo/client/index.html"
+            "destination": "/index.html"
         }
     ]
 }
