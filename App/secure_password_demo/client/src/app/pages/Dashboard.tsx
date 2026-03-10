@@ -86,7 +86,7 @@ export default function Dashboard() {
     const [, setLocation] = useLocation();
     const { showToast } = useToast();
     const { panicLock } = useAutoLock();
-    const { logout } = useAuth();
+    const { logout, user } = useAuth();
     const { entries: rawEntries, addEntry, updateEntry, deleteEntry, isOnline, syncStatus } = useVault();
     const [search, setSearch] = useState('');
     const [copiedId, setCopiedId] = useState<number | null>(null);
@@ -303,7 +303,7 @@ export default function Dashboard() {
 
                 {/* Header Row */}
                 <div className="flex items-center justify-between p-6 lg:p-10 pb-4 sticky top-0 bg-background/80 backdrop-blur-xl z-30">
-                    <h1 className="text-2xl font-bold tracking-tight">Hi <span className="text-primary">User</span>,</h1>
+                    <h1 className="text-2xl font-bold tracking-tight">Hi <span className="text-primary">{user?.username || 'User'}</span>,</h1>
                     <div className="flex items-center gap-6">
                         <div className="relative hidden md:block w-72 h-14 z-50">
                             <AppleSpotlight
