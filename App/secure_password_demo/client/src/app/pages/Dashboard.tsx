@@ -303,7 +303,7 @@ export default function Dashboard() {
 
                 {/* Header Row */}
                 <div className="flex items-center justify-between p-6 lg:p-10 pb-4 sticky top-0 bg-background/80 backdrop-blur-xl z-30">
-                    <h1 className="text-2xl font-bold tracking-tight">Hi <span className="text-primary">{user?.username || 'User'}</span>,</h1>
+                    <h1 className="text-2xl font-bold tracking-tight">Hi <span className="text-primary">{user?.displayName || user?.email || 'User'}</span>,</h1>
                     <div className="flex items-center gap-6">
                         <div className="relative hidden md:block w-72 h-14 z-50">
                             <AppleSpotlight

@@ -7,7 +7,9 @@
         "outDir": "./node_modules/.tmp/test",
         "types": [
             "vitest/globals",
-            "@testing-library/jest-dom"
+            "@testing-library/jest-dom",
+            "node",
+            "vite/client"
         ],
         "noUnusedLocals": false,
         "noUnusedParameters": false
